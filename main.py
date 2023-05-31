@@ -6,7 +6,7 @@ print(type(a), "\n")
 # tuple is immutable,
 # insertion order is preserved and duplicates allow
 print("Tuple :")
-tupp = (1, 2, "hello world", 3, 4, 4)
+tupp = (1, 2, "Hello world", 3, 4, 4)
 print(tupp)
 print(type(tupp), "\n")
 
