@@ -11,7 +11,7 @@ pipeline {
         stage('Push Image') {
             steps {
                 echo 'Hello, here i am pushing my image to docker hub!'
-                withDockerRegistry([ credentialsId:"docker-hub-creds", url: "" ])
+                withDockerRegistry([credentialsId: 'docker-hub-creds', url: 'https://hub.docker.com/' ])
                 sh 'docker push som0607/python-img'
             }
         }
