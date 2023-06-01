@@ -5,7 +5,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 echo 'Hello, here i am going to build my image!'
-                sh 'docker build -t python-img .'
+                sh 'docker build -t som0607/python-img .'
             }
         }
         stage('Push Image') {
